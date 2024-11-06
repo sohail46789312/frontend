@@ -3,7 +3,7 @@ import React from "react";
 export default function Card() {
   return (
     <div className="track-course">
-      <img src="/images/1.png" alt="" />
+      <img className="track-img-for-md" src="/images/1.png" alt="" />
       <div className="track-img-after">
         <p>Ui/Ux Design</p>
         <div className="track-stars">
