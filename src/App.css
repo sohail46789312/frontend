@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.track-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.track-div-p{
+    color: #8a8a8a;
+    font-size: 13px;
+}
+
+.track-courses {
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.track-course {
+    position: relative;
+    box-shadow: 0px 0px 10px #acacac ;
+    border-radius: 10px;
+    padding: 6px;
+    padding-bottom: 35px;
+}
+
+.track-course img{
+    width: 300px;
+    height: 135px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.track-course h4{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.track-course .h4-price{
+    color: #FF7426;
+    font-weight: 600;
+}
+
+.track-stars img{
+    height: 12px;
+    width: 12px;
+}
+
+.track-img-after {
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    color: #ACACAC;
+    justify-content: space-between;
+}
+
+.track-couse-last{
+    display: flex;
+    font-size: 11px;
+    color: #ACACAC;
+    justify-content: space-between;
+}
+
+.track-couse-last-div {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.track-couse-last-div img{
+    height: 13px;
+    width: 13px;
+}
+
+.join-button{
+    background-color: #FF7426;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 6px 22px;
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    bottom: -7%;
+    transform: translateX(-50%);
+}
